@@ -6,7 +6,7 @@ def map_to_negativize(source_array)
     negative_array.push(source_array[i] * -1)
     i += 1
   end
-  return negative_array
+  negative_array
 end
 
 def map_to_no_change(source_array)
@@ -20,5 +20,5 @@ def map_to_double(source_array)
     doubled_array.push(source_array[i] * 2)
     i += 1
   end
-  return doubled_array
+  doubled_array
 end
